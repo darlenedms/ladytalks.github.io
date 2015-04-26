@@ -1,0 +1,45 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+# Site settings
+title: "Lady Talks"
+description: mulheres falando de tecnologia. para elas mesmas.
+
+email: contact@ladytalks.technology
+#blog logo
+logo: "/assets/images/logo.png"
+# blog cover
+cover: "/assets/images/bg.jpg"
+
+name: 'Lady Talks'
+author: 'Lady Talks'
+author_image: "/assets/images/logo.png"
+
+paginate: 5
+
+url: "ladytalks.technology" # the base hostname & protocol for your site
+baseurl: "http://ladytalks.technology"
+
+# social icons and sharing options
+social:
+#  - icon: twitter
+#    url: https://twitter.com/dirkfabisch
+#    desc: Follow me on twitter
+#    share_url: http://twitter.com/share
+#    share_title: ?text=
+#    share_link: "&amp;url="
+
+  - icon: slack
+    url: https://ladytalks.slack.com/
+    desc: Chat us on Slack
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: github
+    url: https://github.com/ladytalks
+    desc: Fork us on GitHub
+    share_url:
+    share_title:
+    share_link:
