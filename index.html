@@ -29,6 +29,17 @@ layout: default
 
 
 <main class="content" role="main">
+    {% for talk in site.talks %}
+      <div class="talk">
+        <p class="title">{{ talk.title }}</p>
+        <p class="date">{{ talk.date }}</p>
+        <div class="speaker">
+          <img class="photo" src="{{ talk.speaker.photo }}" alt="{{ talk.speaker.name }}">
+          <p class="name">{{ talk.speaker.name }}</p>
+          <p class="bio">{{ talk.speaker.bio }}</p>
+        </div>
+      </div>
+    {% endfor %}
 
     {% if site.tags.featured %}
     <h5 class="index-headline featured"><span>Featured</span></h5>

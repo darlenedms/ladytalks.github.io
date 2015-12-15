@@ -1,0 +1,46 @@
+%highlight {
+  color: #9078A5;
+  text-shadow: 1px 1px 1px rebeccapurple;
+  font-size: 1.5em;
+}
+
+.talk {
+  color: #fff;
+  background-color: #222;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 5% 5%;
+  margin-bottom: 5%;
+
+  .title {
+    font-family: $lucida-grande;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .date {
+    @extend %highlight;
+  }
+}
+
+.speaker {
+  .name {
+    @extend %highlight;
+  }
+
+  .bio {
+    font-size: 1.2em;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .talk .title {
+    font-size: 1.5em;
+  }
+
+  .speaker .photo {
+    width: 80%;
+  }
+}

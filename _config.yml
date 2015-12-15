@@ -22,6 +22,21 @@ paginate: 5
 url: "ladytalks.technology" # the base hostname & protocol for your site
 baseurl: ""
 
+talks:
+  - title: Iniciando Programação em C&#58; Dicas, ideias e botando um pouco a mão na massa
+    date: 18/12/2015 às 20:00 (horário de Brasília)
+    speaker:
+      name: Lhaís Rodrigues
+      bio: Graduanda em Engenharia da Computação pela CIn-UFPE, criadora e fundadora do Women Makers, Microsoft Student Partner, Embaixadora do Technovation Challenge, Hobbista de IoT e Sistemas Embarcados.
+      photo: /assets/speakers_photos/lhais_rodrigues.png
+
+  - title: Testes&#58; o que são e para que servem?
+    date: 05/01/2016 às 20:00 (horário de Brasília)
+    speaker:
+      name: Diana Ungaro Arnos
+      bio: Bacharel em Ciência da Computação, desenvolvedora web e instrutora. Já foi analista de sistemas, analista de negócios e Zé (a.k.a. suporte/helpdesk). No tempo livre é vocalista de uma banda de heavy metal e jogadora de poker. Aparentemente, um pouco viciada em aprender coisas novas e fazer algo diferente.
+      photo: /assets/speakers_photos/diana_ungaro_arnos.png
+
 # social icons and sharing options
 social:
 #  - icon: twitter
